@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+.navigation{
+    max-height: 70px;
+    background-color: rgb(30, 30, 30);
+}
+nav{
+    max-height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.brand{
+   max-width: 100px;
+   box-sizing: border-box;
+}
+.nav{
+   
+    float: right;
+
+   padding: auto 0;
+}
+.menu{
+list-style: none;
+display: flex;
+}
+.menu li{
+    padding: 0 25px;
+}
+
+.menu li:hover a{
+    color:blue;
+    transition: all 0.8s;
+}
+.nav a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 16px;
+}
+
+.cta-1 {
+    background-color: blue;
+    padding: 14px 40px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed blue;
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 3px -1px;
+    transition: .4s;
+   }
+   
+   .cta-1 span:last-child {
+    display: none;
+   }
+   
+   .cta-1:hover {
+    transition: .4s;
+    border: 2px dashed blue;
+    background-color: #fff;
+    color: blue;
+   }
+   
+   .cta-1:active {
+    background-color: #87dbd0;
+   }
+   
+   
+/* phần 1 */
+.background{
+    width:100%;
+    height: 600px;
+    background-image:
+    linear-gradient(rgba(0, 0, 255, 0.2),rgba(0, 0, 255, 0.2)),
+     url("https://c.static-nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/tpqid8vgfey6m4ke86te/123-joyride-cdp-apla-xa-xp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trend{
+    height: 600px;
+    display: flex;
+justify-content: center;
+align-items: center;}
+
+.nike-h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.trend-content{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.trend-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.tr-button1 {
+    padding: 15px 30px;
+    margin: 0.5em;
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-radius: 10px;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+   .tr-button2 {
+    padding: 15px 30px;
+    margin: 0.5em;
+    background:blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-radius: 10px;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+.trend-text{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    bottom: 380px;
+}
+ /* phần 2 */
+
+ .phan-2{
+    background-color:rgb(246, 245, 245);
+    height: 420px;
+    margin-top: 50px;
+}
+.img-end{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://cdn3.dhht.vn/wp-content/uploads/2022/07/thuong-hieu-nike-cua-nuoc-nao-y-nghia-logo-va-cac-san-pham-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.end-1{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box-end1{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.year1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.h-end{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+.content-end1{
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-size: 16px;
+    
+}
+.cta-end1 {
+    padding: 12px 30px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-top: 10px;
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+   /* phần 3 */
+   .phan-3{padding: 20px 0;}
+.mama{display: flex;
+justify-content: center;}
+.papa{
+    display: flex;
+    justify-content: center;
+}
+.THE-LATEST{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 400;
+    }
+
+/* card-new */
+.news-1{display: flex;}
+.img-news{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5238ac8e-ee38-4c06-985b-8df12bd0194e/acg-mens-t-shirt-cSvJDn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-news1{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7949975-be05-4b75-af9b-18de47fc0037/acg-canyon-farer-mens-pants-1F8mK2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-news2{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/125034b6-23b0-4067-a04f-e7e6271a9be8/acg-lowcate-shoes-7Px0Lq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tex-news{
+    color: rgb(142, 142, 142);
+    padding-top:10px ;}
+.tex-news1{
+    color:rgb(0, 0, 0);
+    padding-top:5px ;
+font-size: 20px;}
+.tex-news2{
+    color: rgb(142, 142, 142);
+    padding-top:10px ;
+font-weight: 400;
+font-size: 14px;}
+
+.cta-news {
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .cta-news:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+  }
+  
+ .cta-news:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color:blue;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .cta-news:hover::before {
+    width: 160%;
+  }
+
+  /* PHẦN 4 */
+  .phan-4{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1531,c_limit/0a2f6836-9905-4ff3-a942-8a15d26aa1c6/nike-just-do-it.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .tex-h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:600;
+  }
+
+  .box-h4{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+  }
+.cta-sch{
+    padding: 12px 20px;
+}
+
+/* PHẦN 5 */
+.box-5{
+    display: flex;
+    margin-top: 50px;
+}
+.nike-img1{
+    height: 500px;
+    background-color: bisque;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_706,c_limit/cf71264b-95f5-465a-bba7-479885597bd2/nike-just-do-it.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom 20px;
+}
+
+.nike-img2{
+    height: 500px;
+    background-color: bisque;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_706,c_limit/6fd07771-72b2-4e32-97f2-97968989e8b4/nike-just-do-it.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom 20px;
+}
+
+.tex-img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 450px;
+    padding: 20px;
+}
+.p1{
+    color: #fff;
+}
+.p2{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.cta-p{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+.tex-img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 450px;
+    padding: 20px;
+}
+.p1-1{
+    color: #fff;
+}
+.p2-2{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.cta-p{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* PHẦN 6 */
+.phan-6{
+    margin-top: 50px;
+    width: 100%;
+    height:300px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/w_1519,c_limit/136969b7-b7e2-4f69-bd00-ca87896da707/nike-just-do-it.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+}
+
+.en{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+}
+.t-6{
+    color: #fff;
+}
+.t-62{
+    margin-top: 10px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.t-63{
+    margin-top: 10px;
+    color: #fff;
+}
+.t-64{
+    margin-top: 10px;
+    padding: 8px 20px;
+}
+
+/* PHÚT TỜ */
+footer{
+    background-color: black;
+    padding: 20PX;
+    margin-top:50px;
+}
+.logo-footer{
+    width: 150px;
+}
+
+.menu-footer{
+    list-style: none;
+    display: flex;
+}
+
+.menu-footer li{
+    color: rgb(181, 181, 181);
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 0 40px;
+}
+
+.cuoi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
